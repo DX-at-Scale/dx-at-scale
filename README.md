@@ -115,7 +115,7 @@ Creating a knowledge map of the team’s current understanding of DDD is highly 
 ##### Conduct a consistent onboarding
 Finally, it is important to explain why the company has chosen to adopt DDD from the beginning. Providing your team with clear context and purpose will help them feel more engaged and motivated to apply DDD effectively.
 
-##### $\colorbox{orange}{{\color{black}{1st\ Cycle\ of\ DDD\ "Kata"}}}$
+##### 1st Cycle of DDD "Kata"
 With all the steps above completed, you are now ready to begin exploring your business domain for the first time. Keep in mind that DDD is an iterative process, and this initial cycle serves as the first spark to accelerate the Agile team's learning curve. 
 
 For this first cycle, it is recommended that your DDD champion take the lead, with strong support from the Agile team members.
@@ -147,11 +147,11 @@ After going through the 1st Cycle, your team members should feel that they have 
 #### Sprint 0
 The topic of whether Agile teams should have a Sprint 0 is often debated. The Scrum framework does not mention a specific sprint for setting up things like the codebase or CI/CD pipelines. However, many Agile teams use this concept. 
 
-For this reason, Sprint 0 has been included in this article, but is marked as $\colorbox{darkblue}{{\color{white}{optional}}}$.
+For this reason, Sprint 0 has been included in this article, but is marked as optional.
 
 If you choose to have a Sprint 0, it is a good time to start coding the foundation of your software and apply tactical patterns.
 
-##### $\colorbox{orange}{{\color{black}{1st\ Cycle\ of\ DDD\ "Kata"}}}$
+##### 1st Cycle of DDD "Kata"
 
 > **Define:**
 Senior developers or architects should spend time creating a Bounded Context Canvas to define clear boundaries. This helps formalize your understanding and link it to upcoming User Stories.
@@ -181,14 +181,14 @@ Ideally, these 2 activities happen at the same time. While the team implements t
 
 Applying DDD does not mean you need to change your Agile framework. Instead, it is about integrating DDD principles into the existing rituals and activities of your framework. The following part explains how the DDD steps can be incorporated into your sprints. 
 
-##### $\colorbox{orange}{{\color{black}{Cycle\ 1\ \~\ \ N}}}$
+##### Cycle 1 ~ N
 
 ###### Sprint N+1 preparation
 
 Assuming you have completed the first exploratory cycle of your DDD Kata, your team should now have some familiarity with the approach. This is a good time to shift the DDD leadership from your DDD champion to the architect or a senior developer. If the team does not seem ready, it is perfectly fine to keep the champion involved for a few more cycles to provide support.
 
 > **Align, Discover, Decompose, Connect, Strategize and Organize:**
-The steps "Align," "Discover," "Decompose," "Connect," "Strategize," and "Organize" are marked as $\colorbox{darkblue}{{\color{white}{optional}}}$, but do not misunderstand this. This label means you should evaluate the sprint backlog for upcoming sprints, check if the scope of the current work might impact decisions from the last DDD Kata cycle, and decide which steps need to be revisited. Always analyze the current project situation and use your judgment to choose the steps that require further refinement. There are no strict rules—this is more of an intuitive process.
+The steps "Align," "Discover," "Decompose," "Connect," "Strategize," and "Organize" are marked as optional, but do not misunderstand this. This label means you should evaluate the sprint backlog for upcoming sprints, check if the scope of the current work might impact decisions from the last DDD Kata cycle, and decide which steps need to be revisited. Always analyze the current project situation and use your judgment to choose the steps that require further refinement. There are no strict rules—this is more of an intuitive process.
 
 For example, let us say your first Kata cycle mapped the entire e-commerce flow, from a user viewing a product on the website to the order being fulfilled. Now, in the upcoming sprint, you plan to implement the shopping cart feature. Since this part of the system has more details, it would be helpful to revisit the "Discover" step to refine your Event Storming diagrams. During this process, you might identify new bounded contexts. If that happens, it would make sense to repeat the "Connect" step to define these contexts. If this work involves interactions with a new team that was not previously identified, you should also revisit the "Organize" step to update your Team Topology Charts with the new information.
 
