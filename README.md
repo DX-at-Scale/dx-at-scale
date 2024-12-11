@@ -14,7 +14,7 @@ __Navigation__
 
 - [First things first](#first-things-first)
 - [Choose your "Kata"](#choose-your-kata)
-- [Choose your champions](#choose-your-champions)
+- [Choose your coaches](#choose-your-coaches)
 - [Prepare foundational knowledge](#prepare-foundational-knowledge)
 - [Practical DDD in Agile Teams](#practical-ddd-in-agile-teams)
     - [Projects that have not yet started](#1-projects-that-have-not-yet-started)
@@ -29,7 +29,11 @@ __Navigation__
 ## First things first
 Any big program should start with clear communication and real commitment from senior management, including executives. Their support can make a significant difference when implementing large-scale programs. The mindset of an organization often mirrors the attitudes of its leadership. Supportive leaders who not only direct others but also lead by example play a key role in driving success when applying DDD at scale.
 
-With this in mind, before moving forward, let's reflect on the primary goal of DDD:
+Along with the commitment from leadership, it is important to ensure that your technical teams have access to domain experts. If this access is unavailable, you should address and resolve this barrier before getting started with DDD.
+
+It is also important to recognize that DDD is not a one-time activity but a continuous learning process. The dynamics of software, people, and businesses are constantly evolving, and so is your understanding of the domain. Adopting this mindset will help you better understand the intent of the methodology described in this article.
+
+With that said, let's reflect on the primary goal of DDD:
 
 > DDD aims to address software complexity by ensuring the software is closely aligned with the business domain.
 
@@ -39,7 +43,7 @@ Generally, business teams and technical teams tend to operate as totally separat
 
 However, this separation often creates a significant gap in understanding between these people—a gap that must somehow be bridged. To address this, we typically establish communication "contracts", which vary depending on the framework being used.
 
-In Waterfall, these "contracts" often take the form of Project Scope Documents, Requirements Specifications, and similar artifacts. In Agile, they are appear as Business and Technical Refinements, User Stories, Sprint Reviews, User Acceptance Testing, and other practices.
+In Waterfall, these "contracts" often take the form of Project Scope Documents, Requirements Specifications, and similar artifacts. In Agile, they are present as Business and Technical Refinements, User Stories, Sprint Reviews, User Acceptance Testing, and other practices.
 
 ![Business and software teams as separated entities backed by communication contracts"](resources/biz_soft_contracts.svg)
 
@@ -58,25 +62,25 @@ One of the first steps to successfully applying DDD in Agile teams at scale is c
 
 In the context of DDD, there are several approaches to follow. This article, however, is based on the ["Domain-Driven Design Starter Modelling Process"](https://github.com/ddd-crew/ddd-starter-modelling-process) created by the [DDD Crew](https://github.com/ddd-crew) community on GitHub.
 
-## Choose your champions
+## Choose your coaches
 Maybe this is one of the most difficult parts: finding people who have enough energy to implement a cultural switch program at scale. Finding people with core values that suit this mission is more important than focusing on people with technical expertise only. 
 
-Ideally, the chosen champions should also hold leadership positions, as this can significantly smooth the process of applying DDD. (Remember the previously mentioned importance of supportive leadership).
+Ideally, the chosen choaches should also hold leadership positions, as this can significantly smooth the process of applying DDD. (Remember the previously mentioned importance of supportive leadership).
 
 ## Prepare foundational knowledge
 With your "Kata" in hand, you now have an idea of the tools and knowledge required to apply it.
 If you intend to follow the "Domain-Driven Design Starter Modelling Process," the following foundational knowledge is recommended:
 
-- Domain-Driven Design key concepts (reading a good book like the blue one from Eric Evans is highly encouraged)
+- Domain-Driven Design key concepts (reading a good DDD book is highly encouraged)
 - Business Model Canvas
 - Event Storming
 - Team Topology Charts
 - C4 diagrams, Context Mapping, Bounded Context Canvas, and related tools. You can check all the tools with more details in the DDD crew GitHub.
 
-Investing in hands-on training sessions for your champions to master these topics is highly recommended. Additionally, recommending self-paced online courses can help a broader group of Agile team members acquire this knowledge (online self-paced courses are often cheaper). Your Agile team members should feel encouraged by your DDD champions and gradually develop an interest in the topic over time.
+Investing in hands-on training sessions for your coaches to master these topics is highly recommended. Additionally, recommending self-paced online courses can help a broader group of Agile team members acquire this knowledge (online self-paced courses are often cheaper). Your Agile team members should feel encouraged by your DDD coaches and gradually develop an interest in the topic over time.
 
 ## Practical DDD in Agile Teams
-Once you have built a solid foundation for your DDD champions, it is time to start applying your "Kata". Remember, DDD relies on continuous interaction, the more you learn about the business, the better models you can come up with. This process often involves revisiting and revising previous decisions to incorporate new insights. Embracing a culture of continuous learning and improvement is essential for success.
+Once you have built a solid foundation for your DDD coaches, it is time to start applying your "Kata". Remember, DDD relies on continuous interaction, the more you learn about the business, the better models you can come up with. This process often involves revisiting and revising previous decisions to incorporate new insights. Embracing a culture of continuous learning and improvement is essential for success.
 
 The advice here is: just get started. If you are working on Agile projects, you are already familiar with cycles of adaptation and improvement. Your first attempt does not need to be perfect. Starting with something, no matter how simple, will allow you to refine and improve over time.
 
@@ -100,8 +104,8 @@ If the target project has not yet started, there are several actions you can tak
 #### Setup
 In large projects, it is common to include an inception phase to organize and prepare before starting sprints, even if this phase is not formally recognized by all Agile frameworks. During this phase, activities such as creating inception decks, organizing product backlogs, and team-building are often carried out.
 
-##### Assign your champion
-This is a great time to assign the DDD champion who will lead the team.
+##### Assign your coach
+This is a great time to assign the DDD coach who will lead the team.
 
 ##### Prepare foundational knowledge
 It is also a good opportunity to onboard team members by providing them with foundational DDD knowledge. If team members are already assigned, ensure they receive proper training. 
@@ -118,7 +122,7 @@ Finally, it is important to explain why the company has chosen to adopt DDD from
 ##### 1st Cycle of DDD "Kata"
 With all the steps above completed, you are now ready to begin exploring your business domain for the first time. Keep in mind that DDD is an iterative process, and this initial cycle serves as the first spark to accelerate the Agile team's learning curve. 
 
-For this first cycle, it is recommended that your DDD champion take the lead, with strong support from the Agile team members.
+For this first cycle, it is recommended that your DDD coach take the lead, with strong support from the Agile team members.
 
 This article will not dive into the details, as the "DDD Starter Modeling Process" already covers them. Instead, it will summarize the activities recommended at each step.
 
@@ -154,11 +158,11 @@ If you choose to have a Sprint 0, it is a good time to start coding the foundati
 ##### 1st Cycle of DDD "Kata"
 
 > **Define:**
-Senior developers or architects should spend time creating a Bounded Context Canvas to define clear boundaries. This helps formalize your understanding and link it to upcoming User Stories.
+Your team should spend time creating a Bounded Context Canvas to define clear boundaries. This helps formalize your understanding and link it to upcoming User Stories.
 Another helpful step is to create C4 diagrams and share them with developers. These diagrams provide a clear view of the expected software design.
 
 > **Code:**
-Your DDD champion should support the senior developers or architects to lead design-level Event Storming sessions focused on the upcoming sprint backlog. This helps the team prepare for development.
+Your DDD coach should support your team to conduct design-level Event Storming sessions focused on the upcoming sprint backlog. This helps the team prepare for development.
 If you decide to build a structural codebase, developers can start applying tactical design patterns to the code.
 
 ##### Code Review & adaptations
@@ -185,7 +189,7 @@ Applying DDD does not mean you need to change your Agile framework. Instead, it 
 
 ###### Sprint N+1 preparation
 
-Assuming you have completed the first exploratory cycle of your DDD Kata, your team should now have some familiarity with the approach. This is a good time to shift the DDD leadership from your DDD champion to the architect or a senior developer. If the team does not seem ready, it is perfectly fine to keep the champion involved for a few more cycles to provide support.
+Assuming you have completed the first exploratory cycle of your DDD Kata, your team should now have some familiarity with the approach. This is a good time to shift the DDD leadership from your DDD coach to the architect or a senior developer. If the team does not seem ready, it is perfectly fine to keep the coach involved for a few more cycles to provide support.
 
 > **Align, Discover, Decompose, Connect, Strategize and Organize:**
 The steps "Align," "Discover," "Decompose," "Connect," "Strategize," and "Organize" are marked as optional, but do not misunderstand this. This label means you should evaluate the sprint backlog for upcoming sprints, check if the scope of the current work might impact decisions from the last DDD Kata cycle, and decide which steps need to be revisited. Always analyze the current project situation and use your judgment to choose the steps that require further refinement. There are no strict rules—this is more of an intuitive process.
@@ -195,7 +199,7 @@ For example, let us say your first Kata cycle mapped the entire e-commerce flow,
 Remember, DDD is an iterative process that requires regular adjustments based on your project’s needs.
 
 > **Define:**
-Senior developers or architects should take time to create a Bounded Context Canvas to clearly define boundaries for the upcoming sprint. This helps ensure a better understanding of the scope and connects it to the User Stories for the sprint.
+Your team should take time to create a Bounded Context Canvas to clearly define boundaries for the upcoming sprint. This helps ensure a better understanding of the scope and connects it to the User Stories for the sprint.
 It is also helpful to create C4 diagrams and share them with the developers. These diagrams give a clear picture of the expected software design, always focusing on the scope of the upcoming sprint.
 
 > **Code:**
@@ -238,6 +242,8 @@ The first DDD cycle is like initializing a robot vacuum. Agile teams are tentati
 
 Starting sooner rather than later allows you to make mistakes, learn from them, and correct course as needed. The quicker you begin, the quicker you can adapt and move forward.
 
+Each subsequent DDD cycle is like running your robot vacuum through the newly discovered room layout. However, unlike static rooms, software, people, and businesses are dynamic and constantly evolving. As you gather more information about your socio-technical organization, your understanding deepens, and the "room walls" should be continuously adjusted.
+
 ![The "Robot Vacuum" approach](resources/robot_vacuum_approach.svg) 
 
 #### Combining DDD Outputs and Diagrams Across Teams
@@ -263,6 +269,6 @@ Applying DDD within Agile teams at scale is an ongoing journey rather than a one
 
 The principles and techniques described here—ranging from initial modeling exercises to continuous refinement cycles—are not rigid mandates but suggestions based on the author's experience applying DDD at scale. Each team’s unique context may call for adjusting the frequency of workshops, experimenting with different modeling tools, or fine-tuning governance approaches.
 
-Aligning leaders, champions, developers, architects, and business stakeholders is key to sustaining a DDD culture. Over time, as your teams gain proficiency, the domain model will stabilize, communication gaps will narrow, and your software will more accurately reflect the business domain it serves. 
+Aligning leaders, coaches, developers, architects, and business stakeholders is key to sustaining a DDD culture. Over time, as your teams gain proficiency, the domain model will stabilize, communication gaps will narrow, and your software will more accurately reflect the business domain it serves. 
 
 Ultimately, by integrating DDD thinking into Agile practices, you can build more maintainable, meaningful software solutions that continuously adapt to evolving business needs.
