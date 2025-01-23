@@ -1,3 +1,7 @@
+![DX at Scale"](../../resources/dxatscale_logo.jpg) 
+
+[Home](../../) » Articles » Applying practical DDD in Agile (Scrum) teams at scale
+
 # Applying practical DDD in Agile (Scrum) teams at scale
 A survival guide for applying Domain-Driven Design (DDD) within Agile teams at scale.
 
