@@ -15,4 +15,5 @@ Such contents could help democratize information about Digital Transformation, i
 ## Articles
 Check out the latest high-quality community articles:
 
+- [Applying the Gemba Walk Methodology to Software Development Agile Teams](articles/gemba-walk/)
 - [Applying practical Domain-Driven Design in Agile (Scrum) teams at scale](articles/ddd-at-scale/)
