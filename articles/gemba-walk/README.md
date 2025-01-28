@@ -159,7 +159,8 @@ Over time, Gemba Walks can become a cornerstone of your Agile transformation jou
 
 ---
 
-Author: @gsimplicio
+Author: [@gsimplicio](https://github.com/gsimplicio)
+
 Created on: 2025-01-27
 
 ---
