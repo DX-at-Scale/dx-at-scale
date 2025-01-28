@@ -276,3 +276,12 @@ The principles and techniques described here—ranging from initial modeling exe
 Aligning leaders, coaches, developers, architects, and business stakeholders is key to sustaining a DDD culture. Over time, as your teams gain proficiency, the domain model will stabilize, communication gaps will narrow, and your software will more accurately reflect the business domain it serves. 
 
 Ultimately, by integrating DDD thinking into Agile practices, you can build more maintainable, meaningful software solutions that continuously adapt to evolving business needs.
+
+---
+
+Author: @geovanneb
+Created on: 2024-12-10
+
+---
+
+[< Back](../../)

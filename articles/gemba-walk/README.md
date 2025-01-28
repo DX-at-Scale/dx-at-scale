@@ -156,3 +156,12 @@ Over time, Gemba Walks can become a cornerstone of your Agile transformation jou
 - Liker, J. K. (2004). *The Toyota Way: 14 Management Principles from the World’s Greatest Manufacturer*. McGraw-Hill.  
 - Schwaber, K. & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org.  
 - Sutherland, J. (2014). *Scrum: The Art of Doing Twice the Work in Half the Time*. Crown Business.
+
+---
+
+Author: @gsimplicio
+Created on: 2025-01-27
+
+---
+
+[< Back](../../)
