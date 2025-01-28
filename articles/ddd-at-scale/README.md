@@ -279,7 +279,8 @@ Ultimately, by integrating DDD thinking into Agile practices, you can build more
 
 ---
 
-Author: @geovanneb
+Author: [@geovanneb](https://github.com/geovanneb)
+
 Created on: 2024-12-10
 
 ---
