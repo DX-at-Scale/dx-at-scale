@@ -11,7 +11,6 @@ You probably came to this article because you’re exploring ways to enhance tea
 
 Before diving in, please note that the Gemba Walk approach is just one tool in your Lean-Agile toolbox. This article assumes you already have a basic understanding of what a Gemba Walk is, and now you want to adapt it for use in software development teams so you can realize its benefits—ranging from boosting morale to driving continuous improvement.
 
-
 __Navigation__
 
 - [First things first](#first-things-first)  
