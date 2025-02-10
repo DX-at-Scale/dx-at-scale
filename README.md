@@ -15,6 +15,7 @@ Such contents could help democratize information about Digital Transformation, i
 ## Articles
 Check out the latest high-quality community articles:
 
-- [Deploying strategic plans through Toyota A3 and personal OKRs](articles/a3-and-okrs/)
-- [Applying the Gemba Walk Methodology to Software Development Agile Teams](articles/gemba-walk/)
-- [Applying practical Domain-Driven Design in Agile (Scrum) teams at scale](articles/ddd-at-scale/)
+- [How Lean and Agile Drives Success in Software Development for the Digital Era :: 2025-10-02](articles/lean-in-digital-era/)
+- [Deploying strategic plans through Toyota A3 and personal OKRs :: 2025-01-29](articles/a3-and-okrs/)
+- [Applying the Gemba Walk Methodology to Software Development Agile Teams :: 2025-01-27](articles/gemba-walk/) 
+- [Applying practical Domain-Driven Design in Agile (Scrum) teams at scale :: 2024-12-10](articles/ddd-at-scale/)
